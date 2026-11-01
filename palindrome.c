@@ -5,7 +5,7 @@
 int main(void)
 {
     int a[5],num;
-    printf("Enter your 5 digit number separately\n");
+    printf("Enter your 5 digit number\n");
     scanf("%d",&num);
     a[0]=num/10000;
     a[1]=(num/1000)%10;
